@@ -121,6 +121,11 @@ body {
   padding: 10px 22px;
 }
 
+.button-stack:hover {
+  border: 1px solid var(--textcolorheader);
+  color: #FF5300;
+}
+
 .header {
   display: flex;
   padding-top: 150px;
@@ -702,20 +707,24 @@ body {
   background: #ffffff;
   border: 0px solid;
   border-radius: 30px;
+  display: flex;
 }
+
 
 .optionButton-DiCy {
   padding-top: 11px 20px 0 0;
 }
 
-.iconFace {
-  color: #ff5300;
-  padding: 13px;
-}
 
 .iconfooter {
-  padding: 11.5px;
+  display: flex !important;
+  margin: 0 auto;
+  align-items: center;
   color: #373737;
+}
+
+.iconfooter:hover {
+  color: #FF5300;
 }
 
 .body-Copy {
@@ -780,7 +789,7 @@ body {
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 390px) {
   .container {
     width: 90%;
   }
@@ -1005,7 +1014,7 @@ body {
 
   .card-UorCap {
     width: 177px;
-    padding: 71px 85px 71px 84px  ;
+    padding: 71px 85px 71px 84px;
   }
 
   .percent-UorCap {
@@ -1030,6 +1039,37 @@ body {
     width: 264px;
     display: grid;
     padding: 18px;
+  }
+
+  .optionbuttonlist-UorCap {
+    padding: 50px;
+  }
+
+  .button-SuNew {
+    display: grid;
+    width: auto;
+    height: 290px ;
+    padding: 20px;
+  }
+
+  .body-SuNew {
+    padding: 50px 0 50px 16px;
+  }
+
+  .buttonEmail-SuNew {
+    width: auto;
+    display: grid;
+  }
+  .textEmail-SuNew {
+    width: auto;
+  }
+
+  .option-DiCy {
+    display: grid;
+  }
+
+  .body-Copy {
+    display: grid;
   }
 
 
