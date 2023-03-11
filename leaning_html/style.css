@@ -175,9 +175,7 @@ body {
 
 }
 
-/* .card {
-  justify-content: center;
-} */
+
 .body-whatwedo {
   padding: 120px 0;
   background: #ffffff;
@@ -626,13 +624,9 @@ body {
 
 }
 
-/* .contentEmail-SuNew {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7b7b7b;
-  padding-left: 20px;
-} */
+.iconimg-email {
+  display: none;
+}
 
 .textEmail-SuNew {
   font-weight: 400;
@@ -1045,10 +1039,18 @@ body {
     padding: 50px;
   }
 
+  .serverCard-UorBlog {
+    display: grid;
+  }
+
+  .card-UorBlog {
+    margin-top: 20px;
+  }
+
   .button-SuNew {
     display: grid;
     width: auto;
-    height: 290px ;
+    height: 290px;
     padding: 20px;
   }
 
@@ -1058,10 +1060,25 @@ body {
 
   .buttonEmail-SuNew {
     width: auto;
-    display: grid;
+    height: 50px;
+
+
+    justify-content: center;
   }
+
+  .button-Sub {
+    width: 20px;
+    height: auto;
+    display: none;
+
+  }
+
   .textEmail-SuNew {
     width: auto;
+  }
+
+  .iconimg-email {
+    display: grid;
   }
 
   .option-DiCy {
@@ -1071,6 +1088,26 @@ body {
   .body-Copy {
     display: grid;
   }
+
+  .buttonimformation-DiCy {
+    height: auto;
+  }
+
+  .body-Dot {
+    display: grid;
+    padding: 0;
+  }
+
+  .button-Arrow {
+    /* display: flex; */
+    justify-content: end;
+  }
+
+  .icon-arrow {
+    display: inherit ;
+  }
+
+
 
 
 
